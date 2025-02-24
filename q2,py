@@ -1,0 +1,23 @@
+# Built-in Functions of Strings
+str = "python programming"
+
+# Length of the string
+print("Length of string:", len(str))
+
+# Convert to uppercase
+print("Uppercase:", str.upper())
+
+# Convert to lowercase
+print("Lowercase:", str.lower())
+
+# Check if string contains only alphabetic characters
+print("Is alphabetic:", str.isalpha())
+
+# Replace 'programming' with 'coding'
+print("Replace 'programming' with 'coding':", str.replace("programming", "coding"))
+
+# Count occurrences of 'p'
+print("Count of 'p':", str.count("p"))
+
+# Find the position of 'programming'
+print("Position of 'programming':", str.find("programming"))
